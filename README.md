@@ -231,7 +231,7 @@ We will use the `has_many` macro to do it.
 ```ruby
 class Artist < ActiveRecord::Base
   has_many :songs
-
+  
 end
 ```
 
